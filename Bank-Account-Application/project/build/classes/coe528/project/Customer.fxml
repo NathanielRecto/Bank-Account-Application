@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="280.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.CustomerController">
+   <children>
+      <Text layoutX="99.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Account">
+         <font>
+            <Font name="Calibri Bold" size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="321.0" layoutY="226.0" mnemonicParsing="false" onAction="#logoutButton" prefHeight="31.0" prefWidth="81.0" text="Logout">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="22.0" layoutY="227.0" mnemonicParsing="false" onAction="#depositButton" prefHeight="28.0" prefWidth="81.0" text="Deposit">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="118.0" layoutY="227.0" mnemonicParsing="false" onAction="#withdrawButton" text="Withdraw">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="220.0" layoutY="228.0" mnemonicParsing="false" onAction="#purchaseButton" prefHeight="28.0" prefWidth="81.0" text="Purchase">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER_RIGHT" layoutX="91.0" layoutY="136.0" prefHeight="21.0" prefWidth="54.0" text="Level:" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font></Label>
+      <TextField fx:id="Amount" layoutX="71.0" layoutY="65.0" prefHeight="35.0" prefWidth="277.0" promptText="Enter an Amount">
+         <font>
+            <Font name="Calibri Italic" size="16.0" />
+         </font></TextField>
+      <Label layoutX="89.0" layoutY="115.0" prefHeight="21.0" prefWidth="62.0" text="Balance:">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font></Label>
+      <Label fx:id="Level" alignment="TOP_LEFT" layoutX="150.0" layoutY="138.0" prefHeight="18.0" prefWidth="211.0">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Balance" alignment="TOP_LEFT" layoutX="150.0" layoutY="117.0" prefHeight="18.0" prefWidth="222.0">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

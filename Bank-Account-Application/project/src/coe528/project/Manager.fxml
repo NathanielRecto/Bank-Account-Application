@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="296.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.ManagerController">
+   <children>
+      <Text layoutX="52.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager Account" textAlignment="CENTER" wrappingWidth="278.0">
+         <font>
+            <Font name="Calibri Bold" size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="7.0" layoutY="251.0" mnemonicParsing="false" onAction="#addCustomerButton" prefHeight="31.0" prefWidth="117.0" text="Add Customer">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="139.0" layoutY="251.0" mnemonicParsing="false" onAction="#deleteCustomerButton" prefHeight="31.0" prefWidth="138.0" text="Delete Customer">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="297.0" layoutY="251.0" mnemonicParsing="false" onAction="#logoutButton" text="Logout">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Username" layoutX="93.0" layoutY="117.0" prefHeight="36.0" prefWidth="196.0" promptText="Username">
+         <font>
+            <Font name="Calibri Italic" size="15.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="Password" layoutX="93.0" layoutY="162.0" prefHeight="31.0" prefWidth="196.0" promptText="Password">
+         <font>
+            <Font name="Calibri Italic" size="15.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="prompt" alignment="CENTER" contentDisplay="CENTER" layoutX="77.0" layoutY="58.0" prefHeight="48.0" prefWidth="228.0" text="Enter Username and Password" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
