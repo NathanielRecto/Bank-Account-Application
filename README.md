@@ -4,12 +4,12 @@ The Bank Account Application project is a graphical user interface (GUI) based a
 ## Features
 - **Customer Operations:**
   - **Login/Logout:** Authenticate and manager user sessions.
-  - Deposit/Withdraw: Add or withdraw money from the account.
-  - Get Balance: Check the current balance.
-  - Online Purchase: Perform online transactions with varying fees based on account level.
-- Manager Operations:
-  - Login/Logout: Authenticate and manage user sessions.
-  - Add/Delete Customer: Create or remove customer accounts, with associated bank accounts.
+  - **Deposit/Withdraw:** Add or withdraw money from the account.
+  - **Get Balance:** Check the current balance.
+  - **Online Purchase:** Perform online transactions with varying fees based on account level.
+- **Manager Operations:**
+  - **Login/Logout:** Authenticate and manage user sessions.
+  - **Add/Delete Customer:** Create or remove customer accounts, with associated bank accounts.
  ## Account Levels
  - **Silver:** Balance < $10,000
  - **Gold:** $10,000 ≤ Balance < $20,000
