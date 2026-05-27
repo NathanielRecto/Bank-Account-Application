@@ -28,3 +28,7 @@ Develop UML diagrams using Violet UML Editor:
 The application employs the State Design Pattern to manage customer account levels. Concrete state classes (e.g., Silver, Gold, Platinum) handle the transitions and behaviors associated with each account level. This design pattern ensures that level transitions are encapsulated and managed efficiently.
 ## Conclusion
 The Bank Account Application successfully demonstrates a practical implementation of a GUI-based system for managing bank accounts. By integrating JavaFX for the graphical interface and employing the State Design Pattern for managing customer account levels, the application provides a user-friendly and efficient solution for both customers and managers. The application meets the specified requirements, including account management functionalities, fee structures based on account levels, and secure user authentication. Overall, this project demonstrates the ability to design and implement a functional banking application, with a focus on user experience and maintainability.
+
+## License
+
+This repository is for academic and portfolio use. If you reuse this project, follow your institution's academic integrity policy and do not submit it as your own work.
